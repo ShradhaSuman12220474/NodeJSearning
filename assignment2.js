@@ -55,3 +55,6 @@ response.then(function fulfilHandeler(downloadedData){
 },function regectHandeler(downloadedData){
     console.log("failed to download the data");
 });
+
+//simple code
+

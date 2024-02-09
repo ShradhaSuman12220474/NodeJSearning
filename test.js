@@ -1,4 +1,19 @@
-let promise = new Promise((resolve, reject) => {
-    throw new Error('Error thrown');
-  });
-  promise.catch(error => console.log(error.message));
+function varExample(){
+  if(true){
+      var x=10;
+  }
+  console.log(x);
+}
+
+varExample();
+console.log(x);
+
+
+
+
+
+
+
+
+
+
